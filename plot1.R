@@ -27,7 +27,7 @@ CreatePlot1 <- function(){
   plotData$Global_active_power <- as.numeric(plotData$Global_active_power)
   
   # Create plot
-  png("plot4.png", width=480, height=480)
+  png("plot1.png", width=480, height=480)
   
   hist(plotData$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
   
