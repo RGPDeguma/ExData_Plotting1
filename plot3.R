@@ -30,7 +30,7 @@ CreatePlot3 <- function(){
   plotData$Sub_metering_3 <- as.numeric(plotData$Sub_metering_3)
   
   # Create plot
-  png("plot4.png", width=480, height=480)
+  png("plot3.png", width=480, height=480)
   
   with(plotData, plot(plotData$datetime,plotData$Sub_metering_1, type="n", xlab = "", ylab = "Energy Sub Metering"))
   with(plotData, points(plotData$datetime,plotData$Sub_metering_1, col="black", type="l"))
